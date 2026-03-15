@@ -6,119 +6,177 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		769597872F57F6E9008C6CBB /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = 769597862F57F6E9008C6CBB /* Core */; };
+		76E4BD282F6661D40057F463 /* Router_Impl in Frameworks */ = {isa = PBXBuildFile; productRef = 76E4BD272F6661D40057F463 /* Router_Impl */; };
+		76E4BD2A2F66622C0057F463 /* Router_Api in Frameworks */ = {isa = PBXBuildFile; productRef = 76E4BD292F66622C0057F463 /* Router_Api */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		769595122F576FE7008C6CBB /* DemoSPM_DSL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoSPM_DSL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		769595342F577457008C6CBB /* DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		769595242F576FE8008C6CBB /* Exceptions for "DemoSPM_DSL" folder in "DemoSPM_DSL" target */ = {
+		769595462F577458008C6CBB /* Exceptions for "DemoApp" folder in "DemoApp" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				".build/module-cache/5R5IU87275FJ/_SwiftConcurrencyShims-2IMTS4WWRU7VJ.pcm",
+				".build/module-cache/5R5IU87275FJ/SwiftShims-2IMTS4WWRU7VJ.pcm",
+				".build/module-cache/86KY3T6NF8M6/_AvailabilityInternal-2YSBQADOLX02V.pcm",
+				".build/module-cache/86KY3T6NF8M6/_Builtin_float-19KE09ZDXQ6Q3.pcm",
+				".build/module-cache/86KY3T6NF8M6/_Builtin_inttypes-19KE09ZDXQ6Q3.pcm",
+				".build/module-cache/86KY3T6NF8M6/_Builtin_limits-19KE09ZDXQ6Q3.pcm",
+				".build/module-cache/86KY3T6NF8M6/_Builtin_stdarg-19KE09ZDXQ6Q3.pcm",
+				".build/module-cache/86KY3T6NF8M6/_Builtin_stdbool-19KE09ZDXQ6Q3.pcm",
+				".build/module-cache/86KY3T6NF8M6/_Builtin_stddef-19KE09ZDXQ6Q3.pcm",
+				".build/module-cache/86KY3T6NF8M6/_Builtin_stdint-19KE09ZDXQ6Q3.pcm",
+				".build/module-cache/86KY3T6NF8M6/_DarwinFoundation1-2YSBQADOLX02V.pcm",
+				".build/module-cache/86KY3T6NF8M6/_DarwinFoundation2-3J4ZFA06I5V1P.pcm",
+				".build/module-cache/86KY3T6NF8M6/_DarwinFoundation3-2NSGASPTSNBVQ.pcm",
+				".build/module-cache/86KY3T6NF8M6/_SwiftConcurrencyShims-2IMTS4WWRU7VJ.pcm",
+				".build/module-cache/86KY3T6NF8M6/CFNetwork-1PNPO1ORVQZLS.pcm",
+				".build/module-cache/86KY3T6NF8M6/CoreFoundation-16SA8WK3L6MQN.pcm",
+				".build/module-cache/86KY3T6NF8M6/CoreServices-39NCTJOEW7PQ2.pcm",
+				".build/module-cache/86KY3T6NF8M6/Darwin-1FXX23EKWOBA9.pcm",
+				".build/module-cache/86KY3T6NF8M6/DiskArbitration-3LBJF5I58QD8.pcm",
+				".build/module-cache/86KY3T6NF8M6/Dispatch-R76HXUP80TVL.pcm",
+				".build/module-cache/86KY3T6NF8M6/Foundation-24LYWIP48SHNP.pcm",
+				".build/module-cache/86KY3T6NF8M6/IOKit-1IAL9NTK1TABA.pcm",
+				".build/module-cache/86KY3T6NF8M6/launch-3T3BU4MASLMUM.pcm",
+				".build/module-cache/86KY3T6NF8M6/libDER-26DYHF6GC6WWA.pcm",
+				".build/module-cache/86KY3T6NF8M6/libkern-2KQ0X67RTM1JF.pcm",
+				".build/module-cache/86KY3T6NF8M6/MachO-20RPYVQSX341K.pcm",
+				".build/module-cache/86KY3T6NF8M6/ObjectiveC-1G8H182PQX3QE.pcm",
+				".build/module-cache/86KY3T6NF8M6/os_object-2MV8OP7R98AN8.pcm",
+				".build/module-cache/86KY3T6NF8M6/os_workgroup-2MV8OP7R98AN8.pcm",
+				".build/module-cache/86KY3T6NF8M6/ptrauth-19KE09ZDXQ6Q3.pcm",
+				".build/module-cache/86KY3T6NF8M6/ptrcheck-19KE09ZDXQ6Q3.pcm",
+				".build/module-cache/86KY3T6NF8M6/Security-3QCVXOV25KK54.pcm",
+				".build/module-cache/86KY3T6NF8M6/SwiftShims-2IMTS4WWRU7VJ.pcm",
+				".build/module-cache/86KY3T6NF8M6/sys_types-3J4ZFA06I5V1P.pcm",
+				".build/module-cache/86KY3T6NF8M6/XPC-T0ZXCAST7PE3.pcm",
 				Info.plist,
 			);
-			target = 769595112F576FE7008C6CBB /* DemoSPM_DSL */;
+			target = 769595332F577457008C6CBB /* DemoApp */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		769595142F576FE7008C6CBB /* DemoSPM_DSL */ = {
+		769595362F577457008C6CBB /* DemoApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				769595242F576FE8008C6CBB /* Exceptions for "DemoSPM_DSL" folder in "DemoSPM_DSL" target */,
+				769595462F577458008C6CBB /* Exceptions for "DemoApp" folder in "DemoApp" target */,
 			);
-			path = DemoSPM_DSL;
+			path = DemoApp;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7695950F2F576FE7008C6CBB /* Frameworks */ = {
+		769595312F577457008C6CBB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				769597872F57F6E9008C6CBB /* Core in Frameworks */,
+				76E4BD2A2F66622C0057F463 /* Router_Api in Frameworks */,
+				76E4BD282F6661D40057F463 /* Router_Impl in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		769595092F576FE7008C6CBB = {
+		7695952B2F577457008C6CBB = {
 			isa = PBXGroup;
 			children = (
-				769595142F576FE7008C6CBB /* DemoSPM_DSL */,
-				769595132F576FE7008C6CBB /* Products */,
+				769595362F577457008C6CBB /* DemoApp */,
+				76ACEF102F6496F0009DCEB2 /* Frameworks */,
+				769595352F577457008C6CBB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		769595132F576FE7008C6CBB /* Products */ = {
+		769595352F577457008C6CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				769595122F576FE7008C6CBB /* DemoSPM_DSL.app */,
+				769595342F577457008C6CBB /* DemoApp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		76ACEF102F6496F0009DCEB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		769595112F576FE7008C6CBB /* DemoSPM_DSL */ = {
+		769595332F577457008C6CBB /* DemoApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 769595252F576FE8008C6CBB /* Build configuration list for PBXNativeTarget "DemoSPM_DSL" */;
+			buildConfigurationList = 769595472F577458008C6CBB /* Build configuration list for PBXNativeTarget "DemoApp" */;
 			buildPhases = (
-				7695950E2F576FE7008C6CBB /* Sources */,
-				7695950F2F576FE7008C6CBB /* Frameworks */,
-				769595102F576FE7008C6CBB /* Resources */,
+				769595302F577457008C6CBB /* Sources */,
+				769595312F577457008C6CBB /* Frameworks */,
+				769595322F577457008C6CBB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				769595142F576FE7008C6CBB /* DemoSPM_DSL */,
+				769595362F577457008C6CBB /* DemoApp */,
 			);
-			name = DemoSPM_DSL;
+			name = DemoApp;
 			packageProductDependencies = (
+				769597862F57F6E9008C6CBB /* Core */,
+				76E4BD272F6661D40057F463 /* Router_Impl */,
+				76E4BD292F66622C0057F463 /* Router_Api */,
 			);
-			productName = DemoSPM_DSL;
-			productReference = 769595122F576FE7008C6CBB /* DemoSPM_DSL.app */;
+			productName = DemoApp;
+			productReference = 769595342F577457008C6CBB /* DemoApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7695950A2F576FE7008C6CBB /* Project object */ = {
+		7695952C2F577457008C6CBB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2630;
 				LastUpgradeCheck = 2630;
 				TargetAttributes = {
-					769595112F576FE7008C6CBB = {
+					769595332F577457008C6CBB = {
 						CreatedOnToolsVersion = 26.3;
 					};
 				};
 			};
-			buildConfigurationList = 7695950D2F576FE7008C6CBB /* Build configuration list for PBXProject "DemoSPM_DSL" */;
+			buildConfigurationList = 7695952F2F577457008C6CBB /* Build configuration list for PBXProject "DemoApp" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 769595092F576FE7008C6CBB;
+			mainGroup = 7695952B2F577457008C6CBB;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				769597852F57F6E9008C6CBB /* XCLocalSwiftPackageReference "../DemoApp" */,
+			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 769595132F576FE7008C6CBB /* Products */;
+			productRefGroup = 769595352F577457008C6CBB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				769595112F576FE7008C6CBB /* DemoSPM_DSL */,
+				769595332F577457008C6CBB /* DemoApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		769595102F576FE7008C6CBB /* Resources */ = {
+		769595322F577457008C6CBB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -128,7 +186,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7695950E2F576FE7008C6CBB /* Sources */ = {
+		769595302F577457008C6CBB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -138,18 +196,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		769595262F576FE8008C6CBB /* Debug */ = {
+		769595482F577458008C6CBB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R5QX5R8296;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DemoSPM_DSL/Info.plist;
+				INFOPLIST_FILE = DemoApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -157,7 +215,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "paliarmo.DemoSPM-DSL";
+				PRODUCT_BUNDLE_IDENTIFIER = paliarmo.DemoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -169,18 +227,18 @@
 			};
 			name = Debug;
 		};
-		769595272F576FE8008C6CBB /* Release */ = {
+		769595492F577458008C6CBB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R5QX5R8296;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DemoSPM_DSL/Info.plist;
+				INFOPLIST_FILE = DemoApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -188,7 +246,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "paliarmo.DemoSPM-DSL";
+				PRODUCT_BUNDLE_IDENTIFIER = paliarmo.DemoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -200,7 +258,7 @@
 			};
 			name = Release;
 		};
-		769595282F576FE8008C6CBB /* Debug */ = {
+		7695954A2F577458008C6CBB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -263,7 +321,7 @@
 			};
 			name = Debug;
 		};
-		769595292F576FE8008C6CBB /* Release */ = {
+		7695954B2F577458008C6CBB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -322,25 +380,49 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7695950D2F576FE7008C6CBB /* Build configuration list for PBXProject "DemoSPM_DSL" */ = {
+		7695952F2F577457008C6CBB /* Build configuration list for PBXProject "DemoApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				769595282F576FE8008C6CBB /* Debug */,
-				769595292F576FE8008C6CBB /* Release */,
+				7695954A2F577458008C6CBB /* Debug */,
+				7695954B2F577458008C6CBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		769595252F576FE8008C6CBB /* Build configuration list for PBXNativeTarget "DemoSPM_DSL" */ = {
+		769595472F577458008C6CBB /* Build configuration list for PBXNativeTarget "DemoApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				769595262F576FE8008C6CBB /* Debug */,
-				769595272F576FE8008C6CBB /* Release */,
+				769595482F577458008C6CBB /* Debug */,
+				769595492F577458008C6CBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		769597852F57F6E9008C6CBB /* XCLocalSwiftPackageReference "../DemoApp" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../DemoApp;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		769597862F57F6E9008C6CBB /* Core */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Core;
+		};
+		76E4BD272F6661D40057F463 /* Router_Impl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 769597852F57F6E9008C6CBB /* XCLocalSwiftPackageReference "../DemoApp" */;
+			productName = Router_Impl;
+		};
+		76E4BD292F66622C0057F463 /* Router_Api */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 769597852F57F6E9008C6CBB /* XCLocalSwiftPackageReference "../DemoApp" */;
+			productName = Router_Api;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 7695950A2F576FE7008C6CBB /* Project object */;
+	rootObject = 7695952C2F577457008C6CBB /* Project object */;
 }
